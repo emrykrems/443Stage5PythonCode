@@ -94,7 +94,7 @@ plt.subplot(4, 2, 6).pie(sizes, labels=labels, autopct='%.0f%%', textprops={'siz
 plt.title("Failed A Task", fontsize = 5, bbox={'facecolor':'0.8', 'pad':5})
 
 # pie chart on 3 tasks completed correctly in a row by participants
-labels = ["Yes", "No"]
+labels = ["No", "Yes"]
 sizes = [1, 4]
 plt.subplot(4, 2, 7).pie(sizes, labels=labels, autopct='%.0f%%', textprops={'size': 'smaller'}, radius=1.9)
 plt.title("3 Successful Tasks In A Row", fontsize = 5, loc='right', bbox={'facecolor':'0.8', 'pad':5})
